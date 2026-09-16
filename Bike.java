@@ -1,7 +1,7 @@
 import java.awt.Color;
 // here its public class of the bike 
 public class Bike {
-
+// private statci because we are not suppose to change the elements 
     private static final char[] DEFAULT_BRAND = {'B', 'i', 'k', 'e'};
     private static final Color DEFAULT_COLOR = Color.BLACK;
     private static final int DEFAULT_SIZE = 26;
