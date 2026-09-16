@@ -1,5 +1,5 @@
 import java.awt.Color;
-
+// here its public class of the bike 
 public class Bike {
 
     private static final char[] DEFAULT_BRAND = {'B', 'i', 'k', 'e'};
