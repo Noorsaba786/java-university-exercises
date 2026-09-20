@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Door d = new Door();
-
-        d.lock();
-        d.printStates();
+        Door firstCar = new Door();
+        firstCar.lock();
+        firstCar.printStates();
+        firstCar.close();
+        firstCar.open();
+        firstCar.printStates();
 
     }
 }

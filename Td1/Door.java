@@ -37,7 +37,8 @@ public class Door {
     private boolean isLocked;
 
     public Door() {
-        this.isOpen = false; // by default loock
+        this.isOpen = false; // by default loock // if we want to even erase it even we will be able to run
+                             // it .
         this.isLocked = false; // by defalut open
     }
 
@@ -64,7 +65,7 @@ public class Door {
     }
 
     public void printStates() {
-        String openState = isOpen ? " open" : " close";
+        String openState = isOpen ? " open" : " close";// ternary operator
         String lockState = isLocked ? " locked" : "not locked";
         System.out.println("the door is " + openState + " and " + lockState);
     }
